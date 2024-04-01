@@ -37,9 +37,11 @@ int main (){
         cout << endl;
     }
      for (int i=0;i<3;i++){
-            cout << endl;
+        cout << endl;
         cout << "Data Mahasiswa ke-"<< (i+1)<< ";" ;
         cout << "\nNIM : " << mhs[i].nim;
+        cout << " \n Nama : " << mhs[i].nim;
+        
 
 
 
