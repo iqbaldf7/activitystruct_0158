@@ -36,5 +36,7 @@ int main (){
         cin.ignore(1, '\n');
         cout << endl;
     }
+     for (int i=0;i<3;i++){
+
 
 
