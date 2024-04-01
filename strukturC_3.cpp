@@ -16,13 +16,25 @@ struct Mahasiswa {
 int main(){
     Mahasiswa ms;
     cout << "Nomor Mahasiswa : ";
-    getline(cin,mhs.nama);
+    getline(cin, mhs.nim);
     cout << "Nama Mahasiswa : ";
     getline(cin,mhs.nama);
 
     cout << "Alamat Mahasiswa : "<<endl;
     cout << "\t Nama Desa : ";
     cin >> mhs.alamat.desa;
-    cin >> mhs.alamat.dessa;
     cout << "\t Nama Kota : ";
-    
+    cin >> mhs.alamat.kota;
+    cout << "Umur Mahasiswa : ";
+    cin >>mhs.umur;
+
+    cout << endl;
+    cout << "\nNIM : " << mhs.nim;
+    cout << "\nNama : " << mhs.nama;
+    cout << "\nAlamat :";
+    cout << "\n\tKota : " << mhs.alamat.kota;
+    cout << "\n\tDesa : " << mhs.alamat.desa;
+    cout << "\nUmur : " << mhs.umur;
+};
+
+
