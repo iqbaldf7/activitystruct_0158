@@ -43,6 +43,8 @@ int main (){
         cout << " \n Nama : " << mhs[i].nim;
         cout << "\n Alamat : ";
         cout << "\n \t Desa : "<< mhs[i].alamat.desa;
+        cout << "\n \t Kota : "<< mhs[i].alamat.kota;
+        
         
 
 
